@@ -54,15 +54,15 @@ export default function Calculator() {
 
     return (
         <div>
-            <Box m={5} />
+            <Box m={3} />
             <Container maxWidth="xs">
                 <div className="wrapper">
                     <Box m={12} />
-                    <h1 className="result">{num}</h1>
-                    <button onClick={clear}>AC</button>
-                    <button onClick={changeSign}>+/-</button>
-                    <button onClick={percentage}>%</button>
-                    <button className="orange" onClick={operatorHandler} value="/">
+                    <h1 className="result" >{num}</h1>
+                    <button className="purple2" onClick={clear}>AC</button>
+                    <button className="purple2" onClick={changeSign}>+/-</button>
+                    <button className="purple2" onClick={percentage}>%</button>
+                    <button className="purple1" onClick={operatorHandler} value="/">
                         /
                     </button>
                     <button className="gray" onClick={inputNum} value={7}>
@@ -74,7 +74,7 @@ export default function Calculator() {
                     <button className="gray" onClick={inputNum} value={9}>
                         9
                     </button>
-                    <button className="orange" onClick={operatorHandler} value="X">
+                    <button className="purple1" onClick={operatorHandler} value="X">
                         X
                     </button>
                     <button className="gray" onClick={inputNum} value={4}>
@@ -86,7 +86,7 @@ export default function Calculator() {
                     <button className="gray" onClick={inputNum} value={6}>
                         6
                     </button>
-                    <button className="orange" onClick={operatorHandler} value="-">
+                    <button className="purple1" onClick={operatorHandler} value="-">
                         -
                     </button>
                     <button className="gray" onClick={inputNum} value={1}>
@@ -98,7 +98,7 @@ export default function Calculator() {
                     <button className="gray" onClick={inputNum} value={3}>
                         3
                     </button>
-                    <button className="orange" onClick={operatorHandler} value="+">
+                    <button className="purple1" onClick={operatorHandler} value="+">
                         +
                     </button>
                     <button className="gray" onClick={inputNum} value={0}>
@@ -110,7 +110,7 @@ export default function Calculator() {
                     <button className="gray" style={{ visibility: "hidden" }}>
                         ,
                     </button>
-                    <button className="orange" onClick={calculate}>
+                    <button className="purple1" onClick={calculate}>
                         =
                     </button>
                 </div>

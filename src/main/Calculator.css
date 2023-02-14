@@ -1,3 +1,8 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(158, 95, 174, 1) 92%, rgba(128, 84, 140, 1) 100%);
+}
+
 button {
     width: 3em;
     height: 3em;
@@ -12,23 +17,31 @@ button:hover {
 }
 
 .wrapper {
-    background-color: black;
+    background-color: #222326;
     border-radius: 1em;
     padding: 1em;
+    border-width: 2px;
+    border-style:  groove;
+    border-color: 80548C;
 }
 
-.orange {
-    background-color: #ff9500;
+.purple1 {
+    background-color: #80548C;
+    color: white;
+}
+
+.purple2 {
+    background-color: #AC65BF;
     color: white;
 }
 
 .gray {
-    background-color: #505050;
+    background-color: #BABDBF;
     color: white;
 }
 
 .result {
-    color: white;
+    color: #D97EF2;
     display: flex;
     justify-content: flex-end;
     margin-right: 1em;
